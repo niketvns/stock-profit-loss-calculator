@@ -11,6 +11,7 @@ header {
     align-items: center;
     align-content: center;
     gap: 8px;
+    min-height: 85vh;
 }
 
 h1.main {
@@ -67,6 +68,19 @@ button:hover {
 #loss_percent {
     color: red;
     text-align: center;
+}
+
+
+footer {
+    height: 15vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1rem;
+
 }
 
 @media screen and (max-width: 400px) {
