@@ -11,7 +11,7 @@ button.addEventListener("click", calculatePrice)
 
 
 function calculatePrice() {
-    if (input1.value == 0 || input2.value == 0 || input3.value == 0) {
+    if (input1.value <= 0 || input2.value <= 0 || input3.value <= 0) {
         profit.innerHTML = "Invalid Entry"
         profit_percent.innerHTML = ""
         loss.innerHTML = ""
